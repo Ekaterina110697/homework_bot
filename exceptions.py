@@ -1,10 +1,3 @@
-
-class EmptyResponseFromAPI(Exception):
-    """Пустой ответ от API."""
-
-    pass
-
-
 class ApiError(Exception):
     """Возникла ошибка при запросе к API."""
 
@@ -13,11 +6,5 @@ class ApiError(Exception):
 
 class WrongStatusCode(Exception):
     """Получен неверный статус ошибки."""
-
-    pass
-
-
-class StrangeStatus(Exception):
-    """Исключение при получении неустановленного статуса домашней работы."""
 
     pass
